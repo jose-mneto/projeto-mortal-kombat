@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Selecione um personagem
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/thor.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Reptile</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="reptile" data-name="Reptile">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/reptile.gif" alt="Personagem Reptile">
+                </li>
+
+                <li class="personagem" id="Jcage" data-name="Jcage">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Jcage.gif" alt="Personagem Jcage">
+                </li>
+
+                <li class="personagem" id="baraka" data-name="Baraka">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/baraka.jpg" alt="Personagem Baraka">
+                </li>
+
+                <li class="personagem" id="jax" data-name="Jax">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/jax.jpg" alt="Personagem Jax">
+                </li>
+
+                <li class="personagem" id="Kano" data-name="Kano">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kano.gif" alt="Personagem Kano">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="subzero" data-name="Subzero">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/subzero.gif" alt="Personagem Subzero">
+                </li>
+
+                <li class="personagem" id="scorpion" data-name="Scorpion">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/scorpion.jpg" alt="Personagem Scorpion">
+                </li>
+
+                <li class="personagem" id="kung-lao" data-name="kung-lao">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kung-lao.gif" alt="Personagem kung-lao">
+                </li>
+
+                <li class="personagem" id="liu-kang" data-name="Liu Kang">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/liu-kang.jpg" alt="Personagem Liu Kang">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Subzero.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Subzero</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
